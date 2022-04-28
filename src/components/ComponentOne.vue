@@ -1,8 +1,10 @@
 <template>
   <div class="CompOneDiv">
-    <h3>This is Component One.</h3>
-    <p>This is Component One prop (string) -> ({{ compOneName }})</p>
-    <!-- <p> {{compOneAge}} </p> -->
+    <div class="CompOneDivMain">
+      <h3>This is Component One.</h3>
+      <p>This is Component One prop (string) -> ({{ compOneName }})</p>
+      <!-- <p> {{compOneAge}} </p> -->
+    </div>
   </div>
 </template>
 
@@ -18,15 +20,17 @@ export default {
 
 <style>
 .CompOneDiv {
-    background-color: aqua;
-    padding: 1rem;
+  padding: 1rem;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+.CompOneDivMain {
+  width: 1200px;
+  background-color: rgb(196, 241, 247);
+  padding: 1rem;
 }
 h3 {
-  background-color: black;
-  color: red;
-}
-p {
-  background-color: grey;
-  color: black;
+  padding: 0rem 0rem 1rem 0rem; 
 }
 </style>

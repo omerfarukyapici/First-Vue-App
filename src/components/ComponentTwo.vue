@@ -1,8 +1,10 @@
 <template>
   <div class="CompTwoDiv">
-    <h3>This is Component Two.</h3>
-    <p>This is Copmponent Two prop -> ({{ compTwoName }})</p>
-    <!-- <p> {{compTwoAge}} </p> -->
+    <div class="CompTwoDivMain">
+      <h3>This is Component Two.</h3>
+      <p>This is Copmponent Two prop -> ({{ compTwoName }})</p>
+      <!-- <p> {{compTwoAge}} </p> -->
+    </div>
   </div>
 </template>
 
@@ -18,15 +20,14 @@ export default {
 
 <style>
 .CompTwoDiv {
-    background-color: cadetblue;
-    padding: 1rem;
-}
-h3 {
-  background-color: red;
+  padding: 1rem;
   color: black;
+  display: flex;
+  justify-content: center;
 }
-p {
-  background-color: black;
-  color: white;
+.CompTwoDivMain {
+  width: 1200px;
+  background-color: rgb(244, 176, 247);
+  padding: 1rem;
 }
 </style>
