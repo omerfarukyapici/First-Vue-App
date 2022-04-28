@@ -2,7 +2,7 @@
 
 # Vue Components =
  <br/>
-1 -) <template>Html Code</template>
+1 -) `<template>`Html Code`</template>`
  <br/>
 2 -) <script>JavaScript Code</script>
  <br/>
